@@ -4,8 +4,7 @@
 // (1 => Monday, 2 => Tuesday, etc...)
 
 const readlineSync = require("readline-sync");
-
-let day = new Number(readlineSync.question("Please enter a number between 1 and 7"));
+let day = Number(readlineSync.question("Please enter a number between 1 and 7"));
 
 if (day == 1) {
     console.log('Monday');
@@ -30,7 +29,6 @@ else {
 }
 
 /*
-
 switch (day) {
     case 1:
         console.log('Monday');
@@ -56,4 +54,5 @@ switch (day) {
     default:
         console.log("You didn't enter a number between 1 and 7");
         break;
-}*/
+}
+*/
