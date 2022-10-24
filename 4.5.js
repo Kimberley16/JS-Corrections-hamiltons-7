@@ -10,4 +10,4 @@ function calcDistance(arrA,arrB){
         return "This will not work"
     }
 }
-console.log(calcDistance([1],[2,2]));
+console.log(calcDistance([1,1],[2,2]));
